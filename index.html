@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a solution for stage 1 frontend task on HNG">
+    <link href='style.css' rel='stylesheet'> 
+   
+
+</head>
+
+<body>
+<div class="profile_info">
+
+<!---Slack Name-->
+<h1 data-testid="slackUserName">Abba's Fire</h1>
+
+<!----Slack Display Picture-->
+<img src="My Picture.jpg" alt="Abba's Fire" width="200px" height="200px" atrribute data-testid="slackDisplayImage">
+
+<br>
+<!---Current Day Of The Week-->
+<label for="day"  data-testid="currentDayOfTheWeek">Thursday</label>
+
+<br>
+<!----Current UTC Time-->
+<p id="currentTime" data-testid="currentUTCTime" ></p>
+<script>
+    // JavaScript code to display the current time in UTC (milliseconds)
+    const currentTimeMillis = new Date().getTime();
+    document.getElementById("currentTime").textContent = " " + currentTimeMillis;
+</script>
+
+<!----Track-->
+<p data-testid="myTrack">Frontend</p>
+
+<!---github url-->
+
+</div>
+  
+</body>
+</html>

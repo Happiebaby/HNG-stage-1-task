@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    font-family: monserat;
+    margin: 0 auto;
+    padding: 0;
+    color:white;
+    margin-top: 50px;
+}
+
+.profile_info{
+    background-color: #4E4FEB;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.profile_info:hover{
+    background-color: aqua;
+}
+
+img{
+    border-radius: 15px;
+}
